@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>Library</h1>
+    <div class="container">
+      <form action="" id="addBookForm">
+        <input type="text" name="title" placeholder="Book Title" />
+        <input type="text" name="author" placeholder="Author" />
+        <input type="number" name="pages" placeholder="No of pages" />
+        <button type="submit">Add</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Num of Pages</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
